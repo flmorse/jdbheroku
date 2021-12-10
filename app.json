@@ -35,7 +35,8 @@
   "buildpacks": [{
     "url": "heroku/python"
   }],
-  "formation": {
+ "stack": "container",
+ "formation": {
     "worker": {
       "quantity": 1,
       "size": "free"
